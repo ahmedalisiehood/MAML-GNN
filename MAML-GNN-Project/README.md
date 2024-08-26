@@ -27,23 +27,23 @@ python3 -m venv env
 source env/bin/activate  # On Windows use `env\Scripts\activate`
 pip install -r requirements.txt
 
-How to Run
-1. Preprocess the Data
+## How to Run
+# 1. Preprocess the Data
 Run the preprocessing script to prepare the data:
 bash
 Copy code
 python src/preprocessing.py
-2. Train the Model
-Train the MAML-GNN model:
+## 2. Train the Model
+## Train the MAML-GNN model:
 bash
 Copy code
 python src/train.py
-3. Evaluate the Model
+## 3. Evaluate the Model
 Evaluate the model's performance using ROC curves, confusion matrices, and other metrics:
 bash
 Copy code
 python src/evaluation.py
-4. Run t-SNE Visualization (Optional)
+## 4. Run t-SNE Visualization (Optional)
 Generate t-SNE visualizations to explain class separability:
 bash
 Copy code
