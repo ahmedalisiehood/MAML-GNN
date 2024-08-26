@@ -1,0 +1,11 @@
+
+#### **`requirements.txt`**
+```plaintext
+torch
+torch-geometric
+matplotlib
+seaborn
+scikit-learn
+scipy
+pydicom
+nibabel
